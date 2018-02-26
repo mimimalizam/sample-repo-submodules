@@ -1,0 +1,3 @@
+[submodule "slow-specs-app"]
+	path = slow-specs-app
+	url = https://github.com/semaphore-sample-org/slow-specs-app
