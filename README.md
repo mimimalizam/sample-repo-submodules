@@ -1,1 +1,1 @@
-all options are disabled
+fast failing is enabled
