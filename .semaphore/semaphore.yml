@@ -1,0 +1,18 @@
+version: v1.0
+name: First pipeline example
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+
+blocks:
+  - name: "try cloning"
+    task:
+      jobs:
+      - name: Submodules
+        commands:
+          - checkout
+          - ls -1
+          - ssh-add -L
+          - git submodule init
+          - git submodule update
