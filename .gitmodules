@@ -1,6 +1,6 @@
-[submodule "slow-specs-app"]
-	path = slow-specs-app
-	url = https://github.com/semaphore-sample-org/slow-specs-app
-[submodule "app-with-r"]
-	path = app-with-r
-	url = git@github.com:mimimalizam/app-with-r
+[submodule "private_repo_1"]
+	path = private_repo_1
+	url = git@github.com:mimimalizam/private_repo_1.git
+[submodule "private_repo_2"]
+	path = private_repo_2
+	url = git@github.com:mimimalizam/private_repo_2.git
