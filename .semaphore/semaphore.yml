@@ -8,9 +8,14 @@ agent:
 blocks:
   - name: "try cloning"
     task:
+      secrets:
+      - name: first_ssh_key
+      - name: second_ssh_key
+      - name: ssh_config
       jobs:
       - name: Submodules
         commands:
+          - cat ~/.ssh/config
           - checkout
           - ls -1
           - ssh-add -L
