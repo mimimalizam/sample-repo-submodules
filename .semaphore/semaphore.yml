@@ -19,5 +19,6 @@ blocks:
           - checkout
           - ls -1
           - ssh-add -L
+          - chmod 600 ~/.ssh/id_rsa_sem_1 && chmod 600 ~/.ssh/id_rsa_sem_2
           - git submodule init
           - git submodule update
